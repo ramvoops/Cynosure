@@ -6,12 +6,18 @@ public class Player {
     private int age;
     private String country;
     private int ranking;
+    private Serve serve;
+    private PointError errors;
+    private PointReturn returns;
 
     public Player(String name, int age, String country, int ranking) {
         this.name = name;
         this.age = age;
         this.country = country;
         this.ranking = ranking;
+        serve = new Serve();
+        errors = new PointError();
+        returns = new PointReturn();
     }
 
     //accessors
@@ -30,4 +36,6 @@ public class Player {
     public int getRanking() {
         return ranking;
     }
+
+    public int
 }

@@ -1,5 +1,9 @@
 package runner;
 
+/**
+ * Class responsible for running all statistics for the application
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import data.Point;
