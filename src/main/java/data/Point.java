@@ -1,9 +1,8 @@
+package data;
+
 public class Point {
     private Player server;
-    private int first;
-    private int second;
-    private int doubleFault;
-    private int serveVolley;
+    private Serve serve;
     private Player returner;
     private int returnWinner;
     private int strong;

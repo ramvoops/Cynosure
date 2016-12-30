@@ -1,4 +1,8 @@
+package runner;
+
 import java.util.ArrayList;
+import java.util.Scanner;
+import data.Point;
 
 public class PlayerAnalysis {
     private ArrayList<Point> points;
@@ -10,6 +14,10 @@ public class PlayerAnalysis {
         this.points = points;
         player1 = p1;
         player2 = p2;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hi");
     }
 
     private String player1Name() {
