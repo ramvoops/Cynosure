@@ -1,4 +1,6 @@
-public class Player {
+package player;
+
+class Player {
 
     private String name;
     private int age;

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class PlayerAnalyses {
+public class PlayerAnalysis {
     private ArrayList<Point> points;
     private Player p1;
     private Player p2;
